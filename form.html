@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-submit</title>
+    <style>
+       
+        fieldset label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        fieldset{
+            margin-bottom: 10px;
+            width: 50%;
+        }
+        #submit{
+            background-color: green;
+        }
+        form{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>welcome to our Nur Bahar store</h2>
+        
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <label for="name">Name
+                <input id="name" type="text" placeholder="your name" width="300px"></label>
+                <label for="email">Email
+                    <input id="email" type="email" placeholder="your mail" width="400px"></label>
+                <label for="number">Phone Number
+                <input id="number" type="number" placeholder="exmp-01812345678" width="300px"></label>
+            </fieldset>
+                
+                <fieldset>
+                    <legend>pick one payment method</legend>
+                    <label for="cash">
+                        <input type="radio" name="payment" id="cash">cash payment
+                    </label>
+                    <label for="mobile-banking">
+                        <input type="radio" id="mobile-banking" name="payment">mobile-banking payment
+                    </label>
+                    <label for="card">
+                        <input type="radio" id="card" name="payment">card payment
+                    </label>
+                    <!-- name should be remain same for working radio bottom -->
+                </fieldset>
+            
+                <fieldset>
+                    <legend>choose your item to buy</legend>
+                        <label for="sugar">
+                            <input type="checkbox" id="sugar" name="item" >Sugar
+                        </label>
+                        <label for="milk">
+                            <input type="checkbox" id="milk" name="item">milk
+                        </label>
+                        <label for="rice">
+                            <input type="checkbox" id="rice" name="item">rice
+                        </label>
+                        <label for="onion">
+                            <input type="checkbox" id="onion" name="item">onion
+                        </label>
+                        <label for="tea">
+                            <input type="checkbox" id="tea" name="item">tea pack
+                        </label>
+                        <label for="soap">
+                            <input type="checkbox" id="soap" name="item">soap
+                        </label>
+                        <label for="tissue">
+                            <input type="checkbox" id="tissue" name="item">tissue
+                        </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>tell me about our service</legend>
+                    <label for="advice">
+                        <textarea name="" id="advice" cols="70" rows=3"></textarea>
+                    </label>
+                </fieldset>
+                <label for="reset">
+                    <input type="reset" name="reset" id="reset">
+                </label>
+                <label for="form-submit">
+                    <input type="submit" name="submit" id="submit">
+                </label>
+            </form>
+    </main>
+    
+</body>
+</html>
