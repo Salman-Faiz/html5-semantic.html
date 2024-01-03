@@ -1,15 +1,5 @@
 
-nav ul li{
-display: inline;
-list-style: none;
-margin-right:10px;
-}
-nav li:hover{
-    background-color: lightcoral;
-}
-nav li a{
-    text-decoration: none;
-}
+
 fieldset label{
     display: block;
     margin-bottom: 10px;
